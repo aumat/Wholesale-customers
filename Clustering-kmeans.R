@@ -67,9 +67,3 @@ p2+geom_point(aes(colour=Cluster))+facet_wrap((~Channel+Region),labeller = "labe
 
 
 
-library(fpc)
-clust_stats <- cluster.stats(d = dist(Scale), as.numeric(fit.cust$Channel), fit$cluster)
-clust_stats$corrected.ran
-clust_stats$vi
-as.numeric(fit.cust$Region)
-d = dist(Scale)
